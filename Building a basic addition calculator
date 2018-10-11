@@ -1,0 +1,15 @@
+package com.example.lib00;
+import java.util.Scanner;
+
+public class MyClass {
+    public static void main(String[] args) {
+        Scanner bruh = new Scanner (System.in);
+        double fnum, snum, answer;
+        System.out.println("Enter the first number");
+        fnum = bruh.nextDouble();
+        System.out.println("Enter the second number");
+        snum = bruh.nextDouble();
+        answer= fnum + snum;
+        System.out.println(answer);
+    }
+}
