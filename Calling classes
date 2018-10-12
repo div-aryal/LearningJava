@@ -1,0 +1,26 @@
+//main class
+
+package com.example.lib00;
+import java.util.Scanner;
+
+public class MyClass {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        tuna tunaObject = new tuna();
+
+        System.out.println("Enter your name here:");
+        String name = input.nextLine();
+
+        tunaObject.simpleMessage(name);
+        }
+    }
+
+//next class, make sure in the same file, not a subclass!!
+
+package com.example.lib00;
+
+public class tuna {
+    public void simpleMessage(String name){
+        System.out.println("this is " +name);
+    }
+}
